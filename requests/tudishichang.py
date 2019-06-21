@@ -5,7 +5,7 @@ from bs4 import  BeautifulSoup as bs
 
 def spider():
     '''
-    逆向爬取入门
+    逆向爬取入门,从网络地址https://www.jianshu.com/p/9abe5f713ed6学习整理
     中国土地市场网
     :return:
     '''
