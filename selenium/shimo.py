@@ -22,8 +22,8 @@ class ShiMo:
       chrome_options.add_argument("disable-web-security")
       browser = webdriver.Chrome(executable_path="/Users/mac/bin/chromedriver",options=chrome_options)
       browser.get(url)
-      username = "zhousc5300@163.com"
-      passwd = "zhousc5300"
+      username = "*********"
+      passwd = "**********"
       browser.implicitly_wait(10)
       elem = browser.find_element_by_name("mobileOrEmail")
       elem.send_keys(username)
